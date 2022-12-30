@@ -1,0 +1,24 @@
+// leading: IconButton(
+//             icon: const Icon(
+//               Icons.menu,
+//               size: 50,
+//             ),
+//             onPressed: () {
+//               Scaffold.of(context).openDrawerCustom();
+//             },
+//             tooltip: MaterialLocalizations.of(context).openAppDrawerCustomTooltip,
+//           ),
+
+
+// leading: Builder(builder: (BuildContext context) {
+//     return new GestureDetector(
+//       onTap: (){
+//         Scaffold.of(context).openDrawerCustom();
+//       },
+//       child: const Icon(
+//               Icons.menu,
+//               size: 50,),
+//         padding: new EdgeInsets.all(7.0),
+//                                 ),               
+//   },
+//   )
